@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DC99B320EA809900E64C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC99B220EA809900E64C9B /* AppDelegate.swift */; };
+		95DC99B520EA809900E64C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC99B420EA809900E64C9B /* ViewController.swift */; };
+		95DC99B820EA809900E64C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DC99B620EA809900E64C9B /* Main.storyboard */; };
+		95DC99BA20EA809C00E64C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DC99B920EA809C00E64C9B /* Assets.xcassets */; };
+		95DC99BD20EA809C00E64C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DC99BB20EA809C00E64C9B /* LaunchScreen.storyboard */; };
+		95DC99C820EA809C00E64C9B /* AriEuroConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC99C720EA809C00E64C9B /* AriEuroConverterTests.swift */; };
+		95DC99D320EA809C00E64C9B /* AriEuroConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC99D220EA809C00E64C9B /* AriEuroConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DC99C420EA809C00E64C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DC99A720EA809900E64C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DC99AE20EA809900E64C9B;
+			remoteInfo = AriEuroConverter;
+		};
+		95DC99CF20EA809C00E64C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DC99A720EA809900E64C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DC99AE20EA809900E64C9B;
+			remoteInfo = AriEuroConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DC99AF20EA809900E64C9B /* AriEuroConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AriEuroConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC99B220EA809900E64C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95DC99B420EA809900E64C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95DC99B720EA809900E64C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95DC99B920EA809C00E64C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95DC99BC20EA809C00E64C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95DC99BE20EA809C00E64C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DC99C320EA809C00E64C9B /* AriEuroConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriEuroConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC99C720EA809C00E64C9B /* AriEuroConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriEuroConverterTests.swift; sourceTree = "<group>"; };
+		95DC99C920EA809C00E64C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DC99CE20EA809C00E64C9B /* AriEuroConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriEuroConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC99D220EA809C00E64C9B /* AriEuroConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriEuroConverterUITests.swift; sourceTree = "<group>"; };
+		95DC99D420EA809C00E64C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DC99AC20EA809900E64C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99C020EA809C00E64C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99CB20EA809C00E64C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DC99A620EA809900E64C9B = {
+			isa = PBXGroup;
+			children = (
+				95DC99B120EA809900E64C9B /* AriEuroConverter */,
+				95DC99C620EA809C00E64C9B /* AriEuroConverterTests */,
+				95DC99D120EA809C00E64C9B /* AriEuroConverterUITests */,
+				95DC99B020EA809900E64C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DC99B020EA809900E64C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DC99AF20EA809900E64C9B /* AriEuroConverter.app */,
+				95DC99C320EA809C00E64C9B /* AriEuroConverterTests.xctest */,
+				95DC99CE20EA809C00E64C9B /* AriEuroConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DC99B120EA809900E64C9B /* AriEuroConverter */ = {
+			isa = PBXGroup;
+			children = (
+				95DC99B220EA809900E64C9B /* AppDelegate.swift */,
+				95DC99B420EA809900E64C9B /* ViewController.swift */,
+				95DC99B620EA809900E64C9B /* Main.storyboard */,
+				95DC99B920EA809C00E64C9B /* Assets.xcassets */,
+				95DC99BB20EA809C00E64C9B /* LaunchScreen.storyboard */,
+				95DC99BE20EA809C00E64C9B /* Info.plist */,
+			);
+			path = AriEuroConverter;
+			sourceTree = "<group>";
+		};
+		95DC99C620EA809C00E64C9B /* AriEuroConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DC99C720EA809C00E64C9B /* AriEuroConverterTests.swift */,
+				95DC99C920EA809C00E64C9B /* Info.plist */,
+			);
+			path = AriEuroConverterTests;
+			sourceTree = "<group>";
+		};
+		95DC99D120EA809C00E64C9B /* AriEuroConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95DC99D220EA809C00E64C9B /* AriEuroConverterUITests.swift */,
+				95DC99D420EA809C00E64C9B /* Info.plist */,
+			);
+			path = AriEuroConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DC99AE20EA809900E64C9B /* AriEuroConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC99D720EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverter" */;
+			buildPhases = (
+				95DC99AB20EA809900E64C9B /* Sources */,
+				95DC99AC20EA809900E64C9B /* Frameworks */,
+				95DC99AD20EA809900E64C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AriEuroConverter;
+			productName = AriEuroConverter;
+			productReference = 95DC99AF20EA809900E64C9B /* AriEuroConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DC99C220EA809C00E64C9B /* AriEuroConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC99DA20EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverterTests" */;
+			buildPhases = (
+				95DC99BF20EA809C00E64C9B /* Sources */,
+				95DC99C020EA809C00E64C9B /* Frameworks */,
+				95DC99C120EA809C00E64C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DC99C520EA809C00E64C9B /* PBXTargetDependency */,
+			);
+			name = AriEuroConverterTests;
+			productName = AriEuroConverterTests;
+			productReference = 95DC99C320EA809C00E64C9B /* AriEuroConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95DC99CD20EA809C00E64C9B /* AriEuroConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC99DD20EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverterUITests" */;
+			buildPhases = (
+				95DC99CA20EA809C00E64C9B /* Sources */,
+				95DC99CB20EA809C00E64C9B /* Frameworks */,
+				95DC99CC20EA809C00E64C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DC99D020EA809C00E64C9B /* PBXTargetDependency */,
+			);
+			name = AriEuroConverterUITests;
+			productName = AriEuroConverterUITests;
+			productReference = 95DC99CE20EA809C00E64C9B /* AriEuroConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DC99A720EA809900E64C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Matteo Riganelli";
+				TargetAttributes = {
+					95DC99AE20EA809900E64C9B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					95DC99C220EA809C00E64C9B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 95DC99AE20EA809900E64C9B;
+					};
+					95DC99CD20EA809C00E64C9B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 95DC99AE20EA809900E64C9B;
+					};
+				};
+			};
+			buildConfigurationList = 95DC99AA20EA809900E64C9B /* Build configuration list for PBXProject "AriEuroConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DC99A620EA809900E64C9B;
+			productRefGroup = 95DC99B020EA809900E64C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DC99AE20EA809900E64C9B /* AriEuroConverter */,
+				95DC99C220EA809C00E64C9B /* AriEuroConverterTests */,
+				95DC99CD20EA809C00E64C9B /* AriEuroConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DC99AD20EA809900E64C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC99BD20EA809C00E64C9B /* LaunchScreen.storyboard in Resources */,
+				95DC99BA20EA809C00E64C9B /* Assets.xcassets in Resources */,
+				95DC99B820EA809900E64C9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99C120EA809C00E64C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99CC20EA809C00E64C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DC99AB20EA809900E64C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC99B520EA809900E64C9B /* ViewController.swift in Sources */,
+				95DC99B320EA809900E64C9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99BF20EA809C00E64C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC99C820EA809C00E64C9B /* AriEuroConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC99CA20EA809C00E64C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC99D320EA809C00E64C9B /* AriEuroConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DC99C520EA809C00E64C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DC99AE20EA809900E64C9B /* AriEuroConverter */;
+			targetProxy = 95DC99C420EA809C00E64C9B /* PBXContainerItemProxy */;
+		};
+		95DC99D020EA809C00E64C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DC99AE20EA809900E64C9B /* AriEuroConverter */;
+			targetProxy = 95DC99CF20EA809C00E64C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DC99B620EA809900E64C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC99B720EA809900E64C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95DC99BB20EA809C00E64C9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC99BC20EA809C00E64C9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DC99D520EA809C00E64C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95DC99D620EA809C00E64C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DC99D820EA809C00E64C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95DC99D920EA809C00E64C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95DC99DB20EA809C00E64C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AriEuroConverter.app/AriEuroConverter";
+			};
+			name = Debug;
+		};
+		95DC99DC20EA809C00E64C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AriEuroConverter.app/AriEuroConverter";
+			};
+			name = Release;
+		};
+		95DC99DE20EA809C00E64C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AriEuroConverter;
+			};
+			name = Debug;
+		};
+		95DC99DF20EA809C00E64C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9ZQ39D434;
+				INFOPLIST_FILE = AriEuroConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matteo.AriEuroConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AriEuroConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DC99AA20EA809900E64C9B /* Build configuration list for PBXProject "AriEuroConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC99D520EA809C00E64C9B /* Debug */,
+				95DC99D620EA809C00E64C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC99D720EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC99D820EA809C00E64C9B /* Debug */,
+				95DC99D920EA809C00E64C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC99DA20EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC99DB20EA809C00E64C9B /* Debug */,
+				95DC99DC20EA809C00E64C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC99DD20EA809C00E64C9B /* Build configuration list for PBXNativeTarget "AriEuroConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC99DE20EA809C00E64C9B /* Debug */,
+				95DC99DF20EA809C00E64C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95DC99A720EA809900E64C9B /* Project object */;
+}
