@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         insertedLabel.adjustsFontSizeToFitWidth = true;
         resultLabel.adjustsFontSizeToFitWidth = true;
+        UINavigationItem.title = "Euro → AriAri";
+       
     }
     
     var ariAriValuta = 3806.0;
@@ -27,6 +29,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var insertedCurrencyLabel: UILabel!;
     @IBOutlet weak var resultCurrencyLabel: UILabel!;
+    
+    @IBOutlet weak var UINavigationItem: UINavigationItem!;
     
     @IBOutlet weak var segmentControl: UISegmentedControl!;
     
@@ -51,8 +55,9 @@ class ViewController: UIViewController {
     
     @IBAction func DeleteAll(_ sender: Any) {
         print("reset ALL");
-        resultLabel.text = "";
-        insertedLabel.text = "";
+        resultLabel.text = "0";
+        insertedLabel.text = "0";
+        converted = true;
     }
     
     @IBAction func changeConvertion(_ sender: Any) {
@@ -64,6 +69,7 @@ class ViewController: UIViewController {
             print(convertEuro);
             insertedCurrencyLabel.text = "EUR";
             resultCurrencyLabel.text = "MGA";
+            UINavigationItem.title = "Euro → AriAri";
         //show popular view
         case 1:
             //NSLog("History selected")
@@ -72,6 +78,7 @@ class ViewController: UIViewController {
             print(convertEuro);
             insertedCurrencyLabel.text = "MGA";
             resultCurrencyLabel.text = "EUR";
+            UINavigationItem.title = "Euro ← AriAri";
         default:
             break;
         }
